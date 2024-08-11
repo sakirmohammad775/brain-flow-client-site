@@ -1,16 +1,13 @@
-import ButtonGradient from "../../assets/svg/ButtonGradient";
-import Button from "../../Component/Button";
-
+import Navbar from "../Shared/Navbar/Navbar";
 
 const Home = () => {
     return (
-        <div>
-            <h3 className="text-3xl font-bold underline ">hello World</h3>
+      <>
+      
             <div className="pt-[76px] lg:pt-[5.35rem] overflow-hidden">
-                <Button></Button>
+              <Navbar></Navbar>
             </div>
-            <ButtonGradient></ButtonGradient>
-        </div>
+      </>
     );
 };
 
