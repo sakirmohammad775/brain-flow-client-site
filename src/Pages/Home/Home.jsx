@@ -1,6 +1,7 @@
 
 import Navbar from "../Shared/Navbar/Navbar";
-import Banner from "./Section";
+import Banner from "./Banner";
+
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <div className="pt-[76px] lg:pt-[5.35rem] overflow-hidden">
             <Navbar></Navbar>
             <Banner></Banner>
+            
         
             </div>
       </>
