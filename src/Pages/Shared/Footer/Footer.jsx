@@ -1,11 +1,9 @@
 
 
-
-
 const Footer = () => {
     return (
-        <>
-        
+       <>
+            
         </>
     );
 };

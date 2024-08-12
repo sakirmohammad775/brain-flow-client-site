@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { brainwave } from '../../../assets';
 import { navigation } from '../../../Constant';
 import Button from '../../../Component/Button';
+import ButtonGradient from '../../../assets/svg/ButtonGradient';
 
 
 const Navbar = () => {
@@ -51,6 +52,7 @@ return (
         <Button className="button hidden lg:flex" href="#login">
           Sign in
         </Button>
+        <ButtonGradient/>
      
 
       
