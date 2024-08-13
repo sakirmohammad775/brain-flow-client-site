@@ -6,7 +6,7 @@ import robot from "../../assets/hero/robot.jpg"
 const Banner = () => {
     return (
         <>
-            <Section className="pt-[12rem] -mt-[5.25]" crosses crossesOffset="lg:translate-y-[5.25]"
+            <Section className="pt-[12rem] -mt-[5.25rem]" crosses crossesOffset="lg:translate-y-[5.25]"
                 customPaddings id='hero'>
                 <div className="container relative">
                     <div className="relative z-1 max--w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
@@ -31,10 +31,9 @@ const Banner = () => {
                     <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
                         <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
                             <div className="relative bg-n-8 rounded-[1rem]">
-                                <div className=" bg-n-10 rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:[1024/490]">
-                                    <div className="aspect-[33/40]">
-                                        <img src={robot} className="w-full" width={1024} height={490} />
-                                    </div>
+                                <div className="aspect-[33/40] bg-n-10 rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:[1024/490]">
+                                        <img src={robot} className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]" width={1024} height={490} />
+                                    
                                 </div>
                             </div>
 
