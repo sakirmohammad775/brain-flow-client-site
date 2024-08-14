@@ -8,6 +8,7 @@ import { useRef } from "react";
 import { ScrollParallax } from "react-just-parallax";
 import Generating from "./Generating";
 import Notification from "./Notification";
+import CompanyLogos from "./CompanyLogos";
 
 const Banner = () => {
     const parallaxRef = useRef(null)
@@ -52,24 +53,22 @@ const Banner = () => {
                                     </ScrollParallax>
                                     <ScrollParallax isAbsolutelyPositioned >
                                         <Notification className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex" title="Code Generation">
-                                                
                                         </Notification>
-
                                     </ScrollParallax>
 
                                 </div>
                             </div>
-
+                            <Gradient />
                         </div>
                         {/* background */}
                         <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
                             <img src={heroBackground} className="w-full" width={1440} height={1800} alt="hero" />
                         </div>
-
+                        <BackgroundCircles />
                     </div>
-
-
+                    <CompanyLogos className="hidden relative z-10 mt-20 lg:block"></CompanyLogos>
                 </div>
+                <BottomLine />
             </Section>
         </>
     );
