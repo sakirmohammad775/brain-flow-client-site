@@ -1,7 +1,7 @@
 
 import Navbar from "../Shared/Navbar/Navbar";
 import Banner from "./Banner";
-import Card from "./Card";
+import Benefits from "./Benefits";
 
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
             <div className="pt-[76px] lg:pt-[5.35rem] overflow-hidden">
             <Navbar></Navbar>
             <Banner></Banner>
-            <Card></Card>
+            <Benefits></Benefits>
             
         
             </div>
