@@ -1,7 +1,7 @@
 import { check } from "../../assets";
 import Section from "../../Component/Section"
-import { collabContent } from "../../Constant";
-
+import { collabContent, collabText } from "../../Constant";
+import Button from "../../Component/Button"
 const Collaboration = () => {
     return (
         <>
@@ -22,7 +22,15 @@ const Collaboration = () => {
                                 </li>
                             ))}
                         </ul>
+                        <Button>Try it now</Button>
+                        <div className="lg:ml-auto xl:w-[38rem] mt-4">
+                            <p className="body-2 mb-4 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">{collabText}</p>
+                            <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
+                               
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </Section>
         </>
