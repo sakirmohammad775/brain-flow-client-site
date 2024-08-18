@@ -3,6 +3,7 @@ import Navbar from "../Shared/Navbar/Navbar";
 import Banner from "./Banner";
 import Benefits from "./Benefits";
 import Collaboration from "./Collaboration";
+import Services from "./Services";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Banner></Banner>
             <Benefits></Benefits>
             <Collaboration></Collaboration>
+            <Services></Services>
         
             </div>
       </>
