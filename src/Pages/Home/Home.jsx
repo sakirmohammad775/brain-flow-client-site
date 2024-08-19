@@ -1,4 +1,5 @@
 
+import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
 import Banner from "./Banner";
 import Benefits from "./Benefits";
@@ -21,6 +22,7 @@ const Home = () => {
             <Services></Services>
             <Pricing></Pricing>
             <Roadmap></Roadmap>
+            <Footer></Footer>
         
             </div>
       </>
