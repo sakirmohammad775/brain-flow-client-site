@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import Benefits from "./Benefits";
 import Collaboration from "./Collaboration";
 import Pricing from "./Pricing";
+import Roadmap from "./Roadmap";
 import Services from "./Services";
 
 
@@ -19,6 +20,7 @@ const Home = () => {
             <Collaboration></Collaboration>
             <Services></Services>
             <Pricing></Pricing>
+            <Roadmap></Roadmap>
         
             </div>
       </>
