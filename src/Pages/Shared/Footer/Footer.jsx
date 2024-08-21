@@ -25,9 +25,7 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-      <div>
-        <h3>Hello</h3>
-      </div>
+      
     </Section>
   );
 };
