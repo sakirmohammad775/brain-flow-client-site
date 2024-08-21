@@ -52,7 +52,6 @@ const Pricing = () => {
           </a>
         </div>
       </div>
-      div
     </Section>
   );
 };
