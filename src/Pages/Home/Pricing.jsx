@@ -52,6 +52,7 @@ const Pricing = () => {
           </a>
         </div>
       </div>
+      <div>Hello</div>
     </Section>
   );
 };
