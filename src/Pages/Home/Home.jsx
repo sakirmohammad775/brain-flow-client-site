@@ -4,7 +4,7 @@ import Navbar from "../Shared/Navbar/Navbar";
 import Banner from "./Banner";
 import Benefits from "./Benefits";
 import Collaboration from "./Collaboration";
-import Pricing from "./Pricing";
+import Pricing from "../../Component/Pricing";
 import Roadmap from "./Roadmap";
 import Services from "./Services";
 
